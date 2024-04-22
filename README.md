@@ -1,38 +1,13 @@
-# create-svelte
+### What is this project?
+This project is a demo of how to build a dashboard using svelte and kit. You will be seeing me with these demos on YouTube. 
+In which I'll be explaining how I built this whole, I'm not going to code but will be explaining my choices and concept I used to build this.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+### Tech Stack
+1. Svelte and SvelteKit - Frontend and MetaFramework
+2. Tailwind CSS - Styling
+3. ShadCN Svelte - Components
+4. Mode Watcher - Theme Management
+5. Lucide Svelte - Icons
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Demo
+1. Navbar - [source](src/lib/components/extensions/navbar) - [video]()
