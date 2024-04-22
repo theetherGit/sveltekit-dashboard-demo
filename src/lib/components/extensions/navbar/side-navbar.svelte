@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { navItems } from './utils.js';
+	import { navItems } from './utils';
 	import { slide } from 'svelte/transition';
 
 	export let currentPage: Array<string> = [];
